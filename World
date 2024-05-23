@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Webpage</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            background-image: url('https://your-ink-splotch-art-link.com');
+            background-size: cover;
+            background-position: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .insight, .blog-post {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        .insight h3, .blog-post h3 {
+            margin-top: 0;
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to My Personal Webpage</h1>
+</header>
+
+<div class="container">
+    <section id="daily-insights">
+        <h2>Daily Insights</h2>
+        <div class="insight">
+            <h3>Insight Title</h3>
+            <p>This is where your daily insight will go. You can update this section with your thoughts, reflections, or any interesting tidbits you want to share.</p>
+        </div>
+        <!-- Add more insights as needed -->
+    </section>
+
+    <section id="about-me">
+        <h2>About Me</h2>
+        <p>Here you will write about yourself. Include your background, interests, and any other personal information you'd like visitors to know.</p>
+    </section>
+
+    <section id="blog">
+        <h2>Blog</h2>
+        <div class="blog-post">
+            <h3>Blog Post Title</h3>
+            <p>This is where your blog post will go. You can write about various topics, share your experiences, or provide insights on subjects you're passionate about.</p>
+        </div>
+        <!-- Add more blog posts as needed -->
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 My Personal Webpage. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
